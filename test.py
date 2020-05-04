@@ -7,7 +7,7 @@ class Domain:
 		self.name = _name
 		self.label = _label
     
-  def returnData(self):
+        def returnData(self):
 		return analyse(self.name)
 
 	def returnLabel(self):
